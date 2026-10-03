@@ -1,1 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apoorva H S | Portfolio</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #182848;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    nav {
+      background: white;
+      text-align: center;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #182848;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      color: #182848;
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      margin: 15px 0;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #e8eefc;
+      padding: 10px 16px;
+      border-radius: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      background: #182848;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      background: #182848;
+      color: white;
+      padding: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Apoorva H S</h1>
+    <p>Computer Science Engineering Student | Aspiring Software Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="card">
+      <p>
+        I am a Computer Science Engineering student interested in software
+        development and web technologies. I am improving my programming,
+        GitHub, problem-solving, and professional skills through practical
+        activities and projects.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects & Activities</h2>
+
+    <div class="card">
+      <h3>Hello World Project</h3>
+      <p>
+        Created and ran a basic Hello World program while learning VS Code
+        and working with programming files.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>LeetCode Practice Repository</h3>
+      <p>
+        Practiced beginner programming problems involving arrays, strings,
+        and problem solving and documented my progress using GitHub.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>GitLens & Live Share</h3>
+      <p>
+        Explored GitLens and Live Share to understand Git-based collaboration
+        and pair programming.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="card">
+      <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">Java</span>
+        <span class="skill">Python</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Git</span>
+        <span class="skill">GitHub</span>
+        <span class="skill">VS Code</span>
+        <span class="skill">Problem Solving</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Career Goal</h3>
+      <p>
+        My goal is to improve my software and web development skills,
+        build practical projects, contribute to GitHub, and prepare for
+        a career in software development.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <div class="card">
+      <p>
+        You can find my coding and project work on GitHub.
+      </p>
+
+      <a class="button"
+         href="https://github.com/sheetal3376"
+         target="_blank">
+        Visit My GitHub
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Apoorva H S | Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
